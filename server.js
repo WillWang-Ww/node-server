@@ -2,7 +2,7 @@ var http = require('http')
 var fs = require('fs')
 var port = process.argv[2]
 if(!port){
-  console.log('请指定端口号好不啦？\nnode server.js 8888 这样不会吗？')
+  console.log('请指定端口号好不？\nnode server.js 8888 这样不会吗？')
   process.exit(1)
 }
 var server = http.createServer(function(request, response){
